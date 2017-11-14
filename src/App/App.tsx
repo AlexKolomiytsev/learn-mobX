@@ -3,6 +3,8 @@ import './App.css';
 
 const logo = require('../logo.svg');
 
+import TimerView from '../TimerView/TimerView';
+
 class App extends React.Component {
   render() {
     return (
@@ -11,6 +13,8 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <p className="App-intro">
+
+            <TimerView/>
 
         </p>
       </div>
